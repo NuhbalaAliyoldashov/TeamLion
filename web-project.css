@@ -1,0 +1,113 @@
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      background-image:linear-gradient(to right,rgba(43, 42, 42, 0.050),rgba(33, 33, 33, 0.050),rgba(33, 33, 33, 0.0),rgba(33, 33, 33, 0.00),rgba(33, 33, 33, 0.00)),url('media/bg_info_page.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    
+    header {
+      background-color: rgba(0,0,0, .7);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      display: flex;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    
+    }
+  .logo a img{
+    padding-left: 4px;
+    width: 61px;
+    height: 61px;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 3.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(128, 128, 128);
+    }
+  main {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: rgba(0, 124, 400, .7);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+      line-height: 1.4;
+      color: black;
+      font-size: 140%;
+  }
+  
+  nav {
+      background-color: #3498db;
+      padding: 1em;
+      background-color: rgba(2, 153, 209, .7);
+  }
+  
+  nav a {
+      color: white;
+      background-color:var(--ada-blue);
+      text-decoration: none;
+      margin-right: 12px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profiles {
+      margin-top: 19px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .profiles a {
+      display: block;
+      margin-bottom: 12px;
+      color: blue;
+      width: 48%;
+      text-align: center;
+  }
+  
+  .profiles img {
+    width: 150px;           
+    height: 150px;         
+    object-fit: cover;    
+    border-radius: 50%;    
+  }
